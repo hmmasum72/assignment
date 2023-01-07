@@ -1,0 +1,139 @@
+* {
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-image: url('../images/banner/banner2.png');
+    background-repeat: no-repeat;
+    width: 1600px;
+    height: 809px;
+    text-align: right;
+}
+
+.banner-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 65px;
+    padding: 216px 230px 0 845px;
+
+}
+
+.banner-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding: 24px 230px 32px 876px;
+
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background: #F15B22;
+    height: 64px;
+    border: 0;
+    border-radius: 5px;
+    margin-right: 230px;
+    padding: 21px 25px 20px 26px;
+}
+
+/* previous section */
+.previous-section {
+    width: 1077px;
+    height: 723.3px;
+    display: flex;
+    text-align: center;
+}
+
+.previous-image {
+    width: 569px;
+    height: 723.3px;
+    margin: 156px 0px 0px 234px;
+}
+
+.previous-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+    height: 94px;
+    padding: 403px 417px 0px 92px;
+}
+
+.previous-description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 24px 289px 0px 92px;
+}
+
+.previous-more {
+    width: 349px;
+    height: 167px;
+    color: #444343;
+    padding: 11px 345px 0px 103px;
+}
+
+/* skill content */
+
+.section-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    padding-left: 711px;
+    margin-top: 205px;
+}
+
+.skil-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1141px;
+    padding: 50px 230px 0px 230px;
+}
+
+.skill-title {
+    color: #151414;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.skill-description {
+    color: #737272;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.skill {
+    text-align: center;
+
+}
+
+/* section mindset */
+.mindset {
+    margin: 124px 230px 0px 230px;
+    width: 1140px;
+    height: 300px;
+    background-image: url('../images/gradient2.png'), url('../images/watch.png');
+    background-position: right bottom, left top;
+    background-repeat: no-repeat,
+}
+
+.mindset-content {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 40px;
+    padding: 59px 617px 0px 64px;
+}
+
+.call-now {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 64px;
+}

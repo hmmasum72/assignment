@@ -1,6 +1,7 @@
 * {
-    margin: 0px;
+    margin: auto;
     font-family: 'Open Sans', sans-serif;
+    width: auto;
 }
 
 .header {
@@ -39,10 +40,14 @@
     padding: 21px 25px 20px 26px;
 }
 
-/* previous section */
-.previous-section {
+body {
     width: 1077px;
-    height: 723.3px;
+}
+
+/* previous section */
+
+.previous-section {
+    height: 723px;
     display: flex;
     text-align: center;
 }
@@ -82,7 +87,7 @@
     color: #151414;
     font-weight: 700;
     font-size: 40px;
-    padding-left: 711px;
+    margin-left: 711px;
     margin-top: 205px;
 }
 
@@ -91,6 +96,7 @@
     justify-content: space-between;
     max-width: 1141px;
     padding: 50px 230px 0px 230px;
+
 }
 
 .skill-title {
@@ -107,12 +113,13 @@
 
 .skill {
     text-align: center;
+    padding: 78px;
 
 }
 
 /* section mindset */
 .mindset {
-    margin: 124px 230px 0px 230px;
+    margin: 14px 230px 0px 230px;
     width: 1140px;
     height: 300px;
     background-image: url('../images/gradient2.png'), url('../images/watch.png');
@@ -136,4 +143,53 @@
     border: 0;
     border-radius: 5px;
     margin-left: 64px;
+}
+
+/* footer section */
+
+.future {
+    background: #151414;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 1600px;
+    height: 577px;
+}
+
+.future-title {
+    color: #F8F8F8;
+    font-weight: 700;
+    font-size: 45px;
+    margin-top: 130px;
+}
+
+.future-description {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    width: 485px;
+    height: 78px;
+}
+
+.subscribe {
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.email-in {
+    width: 146px;
+    height: 21px;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 21px 158px 22px 21px;
+}
+
+.bttn-sbcrb {
+    width: 170.11px;
+    height: 64px;
+    color: #F15B22;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius: 5px;
 }
